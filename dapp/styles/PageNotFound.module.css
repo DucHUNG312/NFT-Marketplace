@@ -1,0 +1,26 @@
+.center {
+  z-index: 11111111111;
+  margin: 10;
+  font-size: 50px;
+}
+
+.center_goback:hover {
+  transform: scale(1.02);
+}
+
+.center_goback {
+  cursor: pointer;
+}
+
+.box {
+  background-color: var(--main-bg-color);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: 1111111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
